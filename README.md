@@ -11,6 +11,7 @@ Shared Mistral Vibe agent harness for the dev team. Home of **Orion** (Software 
 ├── prompts/             # full system prompts
 ├── skills/              # reusable SKILL.md workflows
 └── knowledge/library/   # curated reference library
+    frontend/            # frontend & GitHub workflow references (aurora)
 docs/
 ├── adr/                 # architecture decision records
 └── architecture/        # system context, diagrams
@@ -24,6 +25,7 @@ CONTRIBUTING.md          # how agents and humans add to this repo
 |---|---|---|
 | `orion` | Software Architect (DDD, security, performance, PM) | `.vibe/agents/orion.toml` |
 | `orion-audit` | Read-only Orion for scheduled/audit jobs | `.vibe/agents/orion-audit.toml` |
+| `aurora` | Front End Developer (Next.js, shadcn/ui, testing, a11y) + GitHub workflow | `.vibe/agents/aurora.toml` |
 
 Run locally after cloning:
 
