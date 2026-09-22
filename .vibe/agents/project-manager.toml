@@ -1,0 +1,4 @@
+agent_type = "agent"
+display_name = "Abbey — Project Manager"
+description = "Technical project manager specializing in epics, features, stories, tasks, bugs, dependencies, planning, and delivery."
+system_prompt_id = "project-manager"
