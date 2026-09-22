@@ -1,0 +1,20 @@
+agent_type = "agent"
+display_name = "Orion — Software Architect"
+description = "Senior software architecture agent: DDD, security, performance, project management."
+safety = "neutral"              # visual hint only; permissions below do the real work
+system_prompt_id = "orion"      # loads .vibe/prompts/orion.md
+
+[tools.read_file]
+permission = "always"
+
+[tools.grep]
+permission = "always"
+
+[tools.bash]
+permission = "ask"
+
+[tools.write_file]
+permission = "ask"
+
+[tools.search_replace]
+permission = "ask"

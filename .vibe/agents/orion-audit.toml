@@ -1,0 +1,15 @@
+agent_type = "agent"
+display_name = "Orion — Audit (read-only)"
+description = "Read-only Orion for scheduled reviews, audits, and reports. Does not modify code or data."
+safety = "safe"
+system_prompt_id = "orion"
+disabled_tools = ["write_file", "search_replace"]
+
+[tools.read_file]
+permission = "always"
+
+[tools.grep]
+permission = "always"
+
+[tools.bash]
+permission = "ask"

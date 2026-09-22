@@ -1,0 +1,9 @@
+# Project-level Vibe configuration for dev-agents-harness
+# Applies when this directory is trusted.
+
+# Agent discovery
+[agents]
+paths = [".vibe/agents"]
+
+[services]
+prompts_path = ".vibe/prompts"
