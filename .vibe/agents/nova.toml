@@ -1,0 +1,20 @@
+agent_type = "agent"
+display_name = "Nova — DevOps & GitHub"
+description = "DevOps/SRE agent: CI/CD, IaC (Terraform, Docker), Cloudflare edge/DNS, Vercel, Supabase/Neon data, and GitHub platform security (Actions, branch protection, gh CLI)."
+safety = "neutral"              # visual hint only; permissions below do the real work
+system_prompt_id = "nova"      # loads .vibe/prompts/nova.md
+
+[tools.read_file]
+permission = "always"
+
+[tools.grep]
+permission = "always"
+
+[tools.bash]
+permission = "ask"
+
+[tools.write_file]
+permission = "ask"
+
+[tools.search_replace]
+permission = "ask"

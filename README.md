@@ -24,6 +24,7 @@ CONTRIBUTING.md          # how agents and humans add to this repo
 |---|---|---|
 | `orion` | Software Architect (DDD, security, performance, PM) | `.vibe/agents/orion.toml` |
 | `orion-audit` | Read-only Orion for scheduled/audit jobs | `.vibe/agents/orion-audit.toml` |
+| `nova` | DevOps & GitHub (CI/CD, Terraform, Docker, Cloudflare edge/DNS, Vercel, Supabase/Neon) | `.vibe/agents/nova.toml` |
 
 Run locally after cloning:
 
