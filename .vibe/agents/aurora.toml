@@ -1,0 +1,20 @@
+agent_type = "agent"
+display_name = "Aurora — Front End Developer"
+description = "Senior frontend engineer: Next.js, React, TypeScript, shadcn/ui, TanStack Query, testing, accessibility, localization. GitHub workflow specialist."
+safety = "neutral"              # visual hint only; permissions below do the real work
+system_prompt_id = "aurora"     # loads .vibe/prompts/aurora.md
+
+[tools.read_file]
+permission = "always"
+
+[tools.grep]
+permission = "always"
+
+[tools.bash]
+permission = "ask"
+
+[tools.write_file]
+permission = "ask"
+
+[tools.search_replace]
+permission = "ask"
