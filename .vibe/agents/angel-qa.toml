@@ -1,0 +1,26 @@
+agent_type = "agent"
+display_name = "Angel — QA Expert"
+description = "Expert QA/Quality Engineering agent: Test-Driven Design, MSW, Vitest, Playwright, GraphQL Codegen, Prisma, tenant isolation, RBAC, OWASP Top 10:2025, ASVS 5.0, DORA metrics, SLSA provenance."
+safety = "neutral"
+
+# Load the full system prompt from .vibe/prompts/angel-qa.md
+system_prompt_id = "angel-qa"
+
+# Tool permissions (least privilege)
+[tools.read_file]
+permission = "always"
+
+[tools.grep]
+permission = "always"
+
+[tools.bash]
+permission = "ask"
+
+[tools.write_file]
+permission = "ask"
+
+[tools.search_replace]
+permission = "ask"
+
+# Disable tools not needed for QA
+disabled_tools = ["generate_image", "edit_image", "web_search"]
